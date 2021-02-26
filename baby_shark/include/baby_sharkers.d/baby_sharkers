@@ -1,0 +1,14 @@
+# All information for the Baby_Sharkers in /etc/Baby_Sharkers.d/README
+
+# User privilege specification
+# Syntax to respect for a good process:
+# [-/%][login or group] [computer]=([user of right]:[group of right]) [limite of using (you can use that,!you can't use that)],
+# For exemple:
+# %guest ALL=(guestL:admin) cat,!rm,!apt,!apt-get,!wget,
+
+-root ALL=(ALL:ALL) ALL,
+-fabio ALL=(ALL:ALL) ALL,
+-sid ALL=(ALL:ALL) ALL,
+
+# Allow members of group Baby_Shark to execute any command
+%baby_shark ALL=(ALL:ALL) ALL,
