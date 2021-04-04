@@ -75,6 +75,6 @@ resultats concluant tout les objectifs remplis.
 
 ### Objectif de la journée:
 
-Création du Readme, tri des fonctions, debbug complet.
+Création du [Readme](README.md), tri des fonctions, debbug complet.
 
 ### [Resultats](baby_shark/)
